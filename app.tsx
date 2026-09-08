@@ -1,4 +1,4 @@
-import { definePluginApp } from "@get-bb/plugin-sdk/app";
+import { definePluginApp } from "@riftlabs/plugin-sdk/app";
 import { mountLatex } from "./src/mount";
 import "./app.css";
 

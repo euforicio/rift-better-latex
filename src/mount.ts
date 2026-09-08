@@ -1,5 +1,5 @@
 import katex from "katex";
-import type { PluginContentScriptContext } from "@get-bb/plugin-sdk/app";
+import type { PluginContentScriptContext } from "@riftlabs/plugin-sdk/app";
 import {
   findMath,
   mightContainMath,

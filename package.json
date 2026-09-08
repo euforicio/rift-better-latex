@@ -1,22 +1,24 @@
 {
-  "name": "bb-better-latex",
+  "name": "rift-plugin-bb-better-latex",
+  "author": "Rift Labs",
+  "homepage": "https://riftlabs.app",
   "version": "0.2.8",
   "description": "Better inline and display LaTeX for BB chat. Renders $...$, leftover \\[...\\] / \\(...\\), and currency-safe heuristics.",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZhenHuangLab/bb-better-latex.git"
+    "url": "https://github.com/euforicio/rift-better-latex.git"
   },
-  "homepage": "https://github.com/ZhenHuangLab/bb-better-latex",
+  "homepage": "https://riftlabs.app",
   "bugs": {
     "url": "https://github.com/ZhenHuangLab/bb-better-latex/issues"
   },
   "engines": {
-    "bb": ">=0.38",
-    "bbPluginSdk": ">=0.4.6"
+    "rift": ">=0.38",
+    "riftPluginSdk": ">=0.4.48"
   },
-  "bb": {
+  "rift": {
     "name": "Better LaTeX",
     "description": "Renders $...$ and leftover \\[...\\] / \\(...\\) math in chat. Stock BB only ships $$...$$; this plugin adds currency-safe heuristics and reassembles formulas markdown splits across nodes.",
     "branding": {
@@ -34,7 +36,7 @@
     "katex": "^0.16.27"
   },
   "devDependencies": {
-    "@get-bb/plugin-sdk": "0.4.6",
+    "@riftlabs/plugin-sdk": "0.4.48",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "typescript": "^5.7.0"
